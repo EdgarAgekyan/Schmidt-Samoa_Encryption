@@ -1,2 +1,2 @@
-# Schmidt-Samoa_Encryption
-This program implements an asymmetric sorting algorithm using the Schmidt-Samoa (SS) algorithm. 
+This program implements an asymmetric sorting algorithm using the Schmidt-Samoa (SS) algorithm. This program will generate two keys, a public key, and a private key. Anyone can use the public key to encrypt their file. However, only the private key can be used to decrypt the file. The purpose of the public key is to encrypt a message in a way so that only the private key can decrypt it. 
+To create the executables, run the make file by using make clean then make all. The keygen executable creates the public and private keys. The menu can be shown with the different options by typing "./keygen -h". The encrypt executable encrypts the data using the public key and the menu can be received by running "./encrypt -h". The decrypt executable decrypts the data using the private key. The menu for this can be run with "./decrypt.h".
